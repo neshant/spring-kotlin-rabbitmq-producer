@@ -1,0 +1,10 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: store-record-producer
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: rabbitmq
+    password: rabbitmq
